@@ -9,4 +9,4 @@ if ( word1.length > word2.length) {
 } else if ( word2.length > word1.length ) {
   document.getElementById('parola').innerHTML = ("la parola più lunga è:" + " " + word2);
 } else if ( word1.length === word2.length )
-  document.getElementById('parola').innerHTML = ("Le parole sono lunghe uguali")
+  document.getElementById('parola').innerHTML = ("Le parole sono lunghe uguali");
