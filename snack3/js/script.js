@@ -7,6 +7,4 @@ if ( num % 2 == 0 ) {
   document.getElementById('number').innerHTML = ( num );
 } else if ( num % 2 == 1 ) {
   document.getElementById('number').innerHTML = ( num + 1 );
-} else if  ( num == 0 ) {
-  document.getElementById('number').innerHTML = ( num + " " + "numero neutro");
 }
