@@ -4,7 +4,10 @@ var word2 = prompt("Inserire la seconda parola");
 
 // stampare la parola più lunga
 
-if ( word1.length > word2.length) {
+if ( !isNaN(word1) || !isNaN(word2)) {
+  document.getElementById('parola').innerHTML = ("Inserire una parola");
+}
+else if ( word1.length > word2.length) {
   document.getElementById('parola').innerHTML = ("la parola più lunga è:" + " " + word1);
 } else if ( word2.length > word1.length ) {
   document.getElementById('parola').innerHTML = ("la parola più lunga è:" + " " + word2);
